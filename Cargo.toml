@@ -1,0 +1,8 @@
+[package]
+name = "arcdesktop"
+version = "0.1.0"
+edition = "2021"
+description = "The default DE (+ WM) for Neutron"
+
+[dependencies]
+dioxus = { version = "0.2.4", features = ["desktop"] }
